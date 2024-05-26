@@ -4,7 +4,49 @@ This repository contains a simple Vercel serverless function template for 2024. 
 
 ## Getting Started
 
-### Prerequisites
+### Steps
 
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- [Vercel CLI](https://vercel.com/download) (optional, for local development and deployment)
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Commit to your GitHub repository:**
+
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+4. **Deploy on Vercel:**
+
+   - Go to [Vercel](https://vercel.com/) and sign in with your account.
+   - Select "New Project" and import your GitHub repository.
+   - Follow the prompts to deploy your project.
+
+### Usage
+
+Once deployed, you can send requests to your Vercel URL along with the API endpoint. For example:
+
+```
+https://your-vercel-url.vercel.app/api/yourEndPoint
+```
+
+### Example cURL Command
+
+Here’s an example of a cURL command to send a request with a parameter \`data\`:
+
+```bash
+curl -X POST https://your-vercel-url.vercel.app/api/yourEndPoint \
+  -H "Content-Type: application/json" \
+  -d '{"data": "Message to express server"}'
+```
