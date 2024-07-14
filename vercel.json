@@ -7,7 +7,7 @@
         }
     ], 
     "functions": {
-        "api/yourEndPoint.js": {
+        "api/chat.js": {
         "maxDuration": 60
     }
 } 
