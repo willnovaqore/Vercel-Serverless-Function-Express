@@ -1,14 +1,12 @@
 {
-  "name": "vercel_express_serverless",
+  "name": "router",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "TechDevWill",
   "license": "MIT",
-  "description": "Instant Vercel Express serverless function.",
   "dependencies": {
     "micro-cors": "^0.1.1"
   }

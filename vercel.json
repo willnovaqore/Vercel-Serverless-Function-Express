@@ -7,7 +7,7 @@
         }
     ], 
     "functions": {
-        "api/yourEndPoint.js": {
+        "api/router.js": {
         "maxDuration": 60
     }
 } 
